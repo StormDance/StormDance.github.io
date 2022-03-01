@@ -1,0 +1,28 @@
+.grandparent {
+    height: 30vh;
+    background-color: darkorchid;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding: 20px;
+}
+.parent {
+    display:flex;
+    width: 40%;
+    background-color: blue;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.parent:last-child {
+    margin-left: 20px;
+    flex-direction: row;
+}
+.parent:last-child div {
+    width: 20%;
+    height: 100%;
+}
+.child {
+    height: 20%;
+    background-color: darkmagenta;
+}
